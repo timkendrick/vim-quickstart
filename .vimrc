@@ -21,11 +21,6 @@ filetype indent on      " load filetype-specific indent files
 set wildignore+=*.swp   " ignore hidden files
 
 
-" KEYBOARD MAPPINGS
-
-nmap <M-S-d> :t.<CR>    " duplicate line
-
-
 " OS INTEGRATION
 
 " fix OS X terminal meta-keys
@@ -35,6 +30,16 @@ while char <= 'z'
 	exec "imap \e" . char .   " <M-" . char . ">"
 	let char = nr2char(char2nr(char) + 1)
 endw
+
+
+" KEYBOARD MAPPINGS
+
+" duplicate line
+nmap <M-S-d> :t.<CR>
+" insert new line below cursor
+nmap <M-o> o<Esc>
+" insert new line above cursor
+nmap <M-S-o> O<Esc>
 
 
 " MACROS
