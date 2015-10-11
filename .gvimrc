@@ -34,7 +34,8 @@ nmap <M-Tab> :NERDTreeToggle<CR>
 nmap <M-}> :bnext!<CR>
 nmap <M-{> :bprevious!<CR>
 
-" Assign hotkeys to close buffers
+" Assign hotkeys to open and close buffers
+nmap <M-t> :enew<CR>
 nmap <M-w> :bdelete<CR>
 nmap <M-S-w> :BufOnly<CR>
 

@@ -105,6 +105,7 @@ With this setup, Vim will run in one of two different modes depending on the lau
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>o</kbd> | Insert new line above cursor | ✔︎ | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>j</kbd> | Move line down | ✔︎ | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>k</kbd> | Move line up | ✔︎ | ✔︎ |
+| <kbd>Alt</kbd>+<kbd>t</kbd> | Create new buffer | | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>{</kbd> | Switch to previous buffer | | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>}</kbd> | Switch to next buffer | | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>w</kbd> | Close current buffer | | ✔︎ |
