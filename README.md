@@ -17,12 +17,12 @@ These instructions should be everything you need to get up and running, starting
 
 ### Mac OS X
 
-1. Link the configuration files:
+1. Download the configuration files and include them in your Vim config:
 
 	```bash
-	git clone https://github.com/timkendrick/vim-quickstart.git ~/vim-quickstart
-	ln -s ~/vim-quickstart/.vimrc ~/.vimrc
-	ln -s ~/vim-quickstart/.gvimrc ~/.gvimrc
+	git clone https://github.com/timkendrick/vim-quickstart.git
+	echo "source $(pwd)/vim-quickstart/.vimrc" >> ~/.vimrc
+	echo "source $(pwd)/vim-quickstart/.gvimrc" >> ~/.gvimrc
 	```
 
 2. Install the [Vundle](https://github.com/VundleVim/Vundle.vim) package manager (used to install Vim plugins):
