@@ -56,7 +56,7 @@ runtime 'macros/matchit.vim'
 
 " initialize plugin autoload mechanism
 let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
-let s:pluginsPath = s:path . "/plugins"
+let s:plugins_path = s:path . "/plugins"
 
 function! LoadPluginSet(path)
 	execute 'source' a:path . "/plugins.vim"
@@ -72,11 +72,11 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " load Terminal mode plugins
-call LoadPluginSet(s:pluginsPath . "/terminal")
+call LoadPluginSet(s:plugins_path . "/terminal")
 
 " load GUI mode plugins
 if has("gui_running")
-	call LoadPluginSet(s:pluginsPath . "/gui")
+	call LoadPluginSet(s:plugins_path . "/gui")
 endif
 
 " end Vundle configuration
