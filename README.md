@@ -1,4 +1,4 @@
-# vim-bootstrap
+# vim-quickstart
 
 > Sensible defaults for Vim newcomers
 
@@ -20,9 +20,9 @@ These instructions should be everything you need to get up and running, starting
 1. Link the configuration files:
 
 	```bash
-	git clone https://github.com/timkendrick/vim-bootstrap.git ~/vim-bootstrap
-	ln -s ~/vim-bootstrap/.vimrc ~/.vimrc
-	ln -s ~/vim-bootstrap/.gvimrc ~/.gvimrc
+	git clone https://github.com/timkendrick/vim-quickstart.git ~/vim-quickstart
+	ln -s ~/vim-quickstart/.vimrc ~/.vimrc
+	ln -s ~/vim-quickstart/.gvimrc ~/.gvimrc
 	```
 
 2. Install the [Vundle](https://github.com/VundleVim/Vundle.vim) package manager (used to install Vim plugins):
