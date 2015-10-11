@@ -19,6 +19,11 @@ syntax enable           " enable syntax highlighting
 
 filetype indent on      " load filetype-specific indent files
 set wildignore+=*.swp   " ignore hidden files
+set backup                             " activate backups
+set undofile                           " activate persistent undo
+set directory=$TMPDIR//,$TMP//,$TEMP// " set swap directory
+set backupdir=$TMPDIR,$TMP,$TEMP       " set backup directory
+set undodir=$TMPDIR,$TMP,$TEMP         " set undo directory
 
 
 " OS INTEGRATION
