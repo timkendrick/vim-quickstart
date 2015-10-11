@@ -1,24 +1,24 @@
 " EDITOR SETTINGS
 
-set nocompatible
-set tabstop=4           " visual tab width
-set number              " show line numbers
-set relativenumber      " show relative line numbers
-set showcmd             " show most recent command in bottom bar
-set wildmenu            " visual autocomplete for command menu
-set showmatch           " highlight matching braces
-set incsearch           " incremental search
-set hlsearch            " highlight current search term
-set nrformats=          " set number format to decimal
-set updatetime=250      " editor update debounce
-set history=200         " number of commands to store in history
-syntax enable           " enable syntax highlighting
+set nocompatible                       " enable Vim mode
+set tabstop=4                          " visual tab width
+set number                             " show line numbers
+set relativenumber                     " show relative line numbers
+set showcmd                            " show most recent command in bottom bar
+set wildmenu                           " visual autocomplete for command menu
+set showmatch                          " highlight matching braces
+set incsearch                          " incremental search
+set hlsearch                           " highlight current search term
+set nrformats=                         " set number format to decimal
+set updatetime=250                     " editor update debounce
+set history=200                        " number of commands to store in history
+syntax enable                          " enable syntax highlighting
 
 
 " WORKSPACE SETTINGS
 
-filetype indent on      " load filetype-specific indent files
-set wildignore+=*.swp   " ignore hidden files
+filetype indent on                     " load filetype-specific indent files
+set wildignore+=*.swp                  " ignore hidden files
 set backup                             " activate backups
 set undofile                           " activate persistent undo
 set directory=$TMPDIR//,$TMP//,$TEMP// " set swap directory
@@ -32,7 +32,7 @@ set undodir=$TMPDIR,$TMP,$TEMP         " set undo directory
 let char = 'a'
 while char <= 'z'
 	exec "set <M-" . char . ">=\e" . char
-	exec "imap \e" . char .   " <M-" . char . ">"
+	exec "imap \e" . char . " <M-" . char . ">"
 	let char = nr2char(char2nr(char) + 1)
 endw
 
@@ -82,4 +82,3 @@ endif
 " end Vundle configuration
 call vundle#end()
 filetype plugin indent on
-
