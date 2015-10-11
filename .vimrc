@@ -49,73 +49,29 @@ runtime 'macros/matchit.vim'
 
 " PLUGINS
 
-" initialize Vundle
+" initialize plugin autoload mechanism
+let s:path = fnamemodify(resolve(expand('<sfile>:p')), ':h')
+let s:pluginsPath = s:path . "/plugins"
+
+function! LoadPluginSet(path)
+	execute 'source' a:path . "/plugins.vim"
+	for filepath in split(globpath(a:path, "*.vimrc"), '\n')
+		execute 'source' filepath
+	endfor
+endfunction
+
+" start Vundle configuation
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 " load Terminal mode plugins
-Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-surround'
-Plugin 'tpope/vim-commentary'
-Plugin 'tpope/vim-abolish'
-Plugin 'matze/vim-move'
-Plugin 'terryma/vim-multiple-cursors'
-Plugin 'mattn/emmet-vim'
+call LoadPluginSet(s:pluginsPath . "/terminal")
 
-let g:move_key_modifier = 'M'
-let g:move_auto_indent = 0
-
-" load IDE mode plugins
+" load GUI mode plugins
 if has("gui_running")
-
-	Plugin 'scrooloose/syntastic'
-	Plugin 'ctrlpvim/ctrlp.vim'
-	Plugin 'tpope/vim-fugitive'
-	Plugin 'rking/ag.vim'
-	Plugin 'Valloric/YouCompleteMe'
-	Plugin 'bling/vim-airline'
-	Plugin 'scrooloose/nerdtree'
-	Plugin 'Xuyuanp/nerdtree-git-plugin'
-	Plugin 'airblade/vim-gitgutter'
-	Plugin 'editorconfig/editorconfig-vim'
-	Plugin 'schickling/vim-bufonly'
-	Plugin 'altercation/vim-colors-solarized'
-
-	let g:ag_working_path_mode='r'
-
-	let g:airline_powerline_fonts = 1
-	let g:airline#extensions#tabline#enabled = 1
-	let g:airline#extensions#tabline#fnamemod = ':t'
-	let g:airline#extensions#tabline#left_sep = ''
-	let g:airline#extensions#tabline#left_alt_sep = '|'
-
-	let g:ctrlp_working_path_mode = 0
-	let g:ctrlp_custom_ignore = {
-		\ 'dir':  '\v[\/](\.git|\.hg|\.svn|node_modules)$',
-		\ 'file': '\v\.(exe|so|dll)$'
-		\ }
-
-	let NERDTreeMouseMode=2
-	let NERDTreeChDirMode=2
-	let NERDTreeMinimalUI=1
-	let NERDTreeShowHidden=1
-	let NERDTreeQuitOnOpen=1
-	let NERDTreeHijackNetrw=0
-	let NERDTreeIgnore=['\.DS_Store$','\.git$']
-
-	let g:syntastic_always_populate_loc_list = 1
-	let g:syntastic_auto_loc_list = 1
-	let g:syntastic_check_on_open = 1
-	let g:syntastic_check_on_wq = 0
-	let g:syntastic_javascript_checkers = ['eslint']
-	let g:syntastic_error_symbol = "✘"
-	let g:syntastic_warning_symbol = "⚠"
-	set statusline+=%#warningmsg#
-	set statusline+=%{SyntasticStatuslineFlag()}
-	set statusline+=%*
-
+	call LoadPluginSet(s:pluginsPath . "/gui")
 endif
 
 " end Vundle configuration
