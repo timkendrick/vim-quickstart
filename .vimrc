@@ -1,3 +1,9 @@
+if exists('g:quickstart_loaded_vimrc')
+    finish
+endif
+let g:quickstart_loaded_vimrc = 1
+
+
 " EDITOR SETTINGS
 
 set nocompatible                       " enable Vim mode

@@ -1,3 +1,8 @@
+if exists('g:quickstart_loaded_gvimrc')
+    finish
+endif
+let g:quickstart_loaded_gvimrc = 1
+
 " User Interface
 set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14,Monaco:h14
 set background=dark
