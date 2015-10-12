@@ -35,12 +35,14 @@ set undodir=$TMPDIR,$TMP,$TEMP         " set undo directory
 " OS INTEGRATION
 
 " fix OS X terminal meta-keys
-let char = 'a'
-while char <= 'z'
-	exec "set <M-" . char . ">=\e" . char
-	exec "imap \e" . char . " <M-" . char . ">"
-	let char = nr2char(char2nr(char) + 1)
-endw
+if !has("gui_running")
+	let char = 'a'
+	while char <= 'z'
+		exec "map <Esc>" . char . " <M-" . char . ">"
+		exec "map <Esc>" . toupper(char) . " <M-S-" . char . ">"
+		let char = nr2char(char2nr(char) + 1)
+	endw
+endif
 
 
 " KEYBOARD MAPPINGS
