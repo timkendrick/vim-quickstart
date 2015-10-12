@@ -42,6 +42,8 @@ if !has("gui_running")
 		exec "map <Esc>" . toupper(char) . " <M-S-" . char . ">"
 		let char = nr2char(char2nr(char) + 1)
 	endw
+	" prevent <M-S-o> from clobbering arrow keys
+	unmap <Esc>O
 endif
 
 
