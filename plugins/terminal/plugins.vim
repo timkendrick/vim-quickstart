@@ -1,7 +1,7 @@
 Plugin 'tpope/vim-repeat'
+Plugin 'tpope/vim-unimpaired'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-abolish'
-Plugin 'matze/vim-move'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'mattn/emmet-vim'

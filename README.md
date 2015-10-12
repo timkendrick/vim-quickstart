@@ -68,11 +68,11 @@ With this setup, Vim will run in one of two different modes depending on the lau
 
 | Plugin | Terminal mode | GUI mode | Purpose |
 | ------ | :-----------: | :------: | ------- |
+| [vim-unimpaired](https://github.com/tpope/vim-unimpaired) | ✔︎ | ✔︎ | Paired action mappings |
 | [vim-surround](https://github.com/tpope/vim-surround) | ✔︎ | ✔︎ | Wrap code blocks |
 | [vim-commentary](https://github.com/tpope/vim-commentary) | ✔︎ | ✔︎ | Code commenting |
 | [vim-abolish](https://github.com/tpope/vim-abolish) | ✔︎ | ✔︎ | Smart word substitution |
 | [vim-repeat](https://github.com/tpope/vim-repeat) | ✔︎ | ✔︎ | Repeat complex actions |
-| [vim-move](https://github.com/matze/vim-move) | ✔︎ | ✔︎ | Shift lines up/down |
 | [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) | ✔︎ | ✔︎ | Sublime-style multiple cursors |
 | [emmet-vim](https://github.com/mattn/emmet-vim) | ✔︎ | ✔︎ | Dynamic HTML snippets |
 | [NERDTree](https://github.com/scrooloose/nerdtree) | | ✔︎ | File explorer sidebar |

@@ -49,10 +49,6 @@ endif
 
 " duplicate line
 nmap <M-S-d> :t.<CR>
-" insert new line below cursor
-nmap <M-o> o<Esc>
-" insert new line above cursor
-nmap <M-S-o> O<Esc>
 
 
 " MACROS
