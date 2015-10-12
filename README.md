@@ -68,11 +68,11 @@ With this setup, Vim will run in one of two different modes depending on the lau
 
 | Plugin | Terminal mode | GUI mode | Purpose |
 | ------ | :-----------: | :------: | ------- |
-| [vim-unimpaired](https://github.com/tpope/vim-unimpaired) | ✔︎ | ✔︎ | Paired action mappings |
-| [vim-surround](https://github.com/tpope/vim-surround) | ✔︎ | ✔︎ | Wrap code blocks |
-| [vim-commentary](https://github.com/tpope/vim-commentary) | ✔︎ | ✔︎ | Code commenting |
-| [vim-abolish](https://github.com/tpope/vim-abolish) | ✔︎ | ✔︎ | Smart word substitution |
-| [vim-repeat](https://github.com/tpope/vim-repeat) | ✔︎ | ✔︎ | Repeat complex actions |
+| [unimpaired.vim](https://github.com/tpope/vim-unimpaired) | ✔︎ | ✔︎ | Paired action mappings |
+| [surround.vim](https://github.com/tpope/vim-surround) | ✔︎ | ✔︎ | Wrap code blocks |
+| [commentary.vim](https://github.com/tpope/vim-commentary) | ✔︎ | ✔︎ | Code commenting |
+| [abolish.vim](https://github.com/tpope/vim-abolish) | ✔︎ | ✔︎ | Smart word substitution |
+| [repeat.vim](https://github.com/tpope/vim-repeat) | ✔︎ | ✔︎ | Repeat complex actions |
 | [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) | ✔︎ | ✔︎ | Sublime-style multiple cursors |
 | [emmet-vim](https://github.com/mattn/emmet-vim) | ✔︎ | ✔︎ | Dynamic HTML snippets |
 | [NERDTree](https://github.com/scrooloose/nerdtree) | | ✔︎ | File explorer sidebar |
@@ -80,11 +80,11 @@ With this setup, Vim will run in one of two different modes depending on the lau
 | [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | | ✔︎ | Git status in gutter |
 | [vim-airline](https://github.com/bling/vim-airline) | | ✔︎ | Improved status bar |
 | [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) | | ✔︎ | Code completion |
-| [Syntastic](https://github.com/scrooloose/syntastic) | | ✔︎ | Syntax checking
+| [Syntastic](https://github.com/scrooloose/syntastic) | | ✔︎ | Syntax checking |
+| [EditorConfig](https://github.com/editorconfig/editorconfig-vim) | | ✔︎ | [Editorconfig](http://editorconfig.org/) support |
 | [ag.vim](https://github.com/rking/ag.vim) | | ✔︎ | Fast code search |
-| [vim-fugitive](https://github.com/tpope/vim-fugitive) | | ✔︎ | Git repository actions |
+| [fugitive.vim](https://github.com/tpope/vim-fugitive) | | ✔︎ | Git repository actions |
 | [vim-bufonly](https://github.com/schickling/vim-bufonly) | | ✔︎ | Allow closing all inactive buffers |
-| [editorconfig-vim](https://github.com/editorconfig/editorconfig-vim) | | ✔︎ | [Editorconfig](http://editorconfig.org/) support |
 | [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) | | ✔︎ | [Solarized](http://ethanschoonover.com/solarized) color scheme |
 
 
