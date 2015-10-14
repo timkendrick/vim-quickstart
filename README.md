@@ -110,6 +110,7 @@ With this setup, Vim will run in one of two different modes depending on the lau
 | <kbd>Alt</kbd>+<kbd>}</kbd> | Switch to next buffer | | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>w</kbd> | Close current buffer | | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>w</kbd> | Close all buffers except current buffer | | ✔︎ |
+| <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>s</kbd> | Save all buffers | | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>Tab</kbd> | Toggle NERDTree sidebar | | ✔︎ |
 
 See plugin documentation for additional keyboard mappings.

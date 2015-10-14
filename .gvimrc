@@ -43,6 +43,7 @@ nmap <M-{> :bprevious!<CR>
 nmap <M-t> :enew<CR>
 nmap <M-w> :bdelete<CR>
 nmap <M-S-w> :BufOnly<CR>
+nmap <M-S-s> :wall<CR>
 
 " Expand '%%' to current file path in command mode
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
