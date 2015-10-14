@@ -52,6 +52,17 @@ endif
 " duplicate line
 nmap <M-S-d> :t.<CR>
 
+" search for visual selection
+xnoremap * :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>/<C-r>=@/<CR><CR>
+xnoremap # :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>#<C-r>=@/<CR><CR>
+
+function! s:PopulateSearchRegisterFromVisualSelection()
+	let existing_register_value = @0
+	normal! gvy
+	let @/ = '\V' . substitute(escape(@0, '/\'), '\n', '\\n', 'g')
+	let @0 = existing_register_value
+endfunction
+
 
 " MACROS
 
