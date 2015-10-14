@@ -32,17 +32,22 @@ set macmeta
 " Set to auto read when a file is changed from the outside.
 set autoread
 
-" Assign hotkey to toggle NERDTree
+" Assign key mappings
+
+" toggle NERDTree
 nmap <M-Tab> :NERDTreeToggle<CR>
 
-" Assign hotkeys to switch between buffers
+" switch to next buffer
 nmap <M-}> :bnext!<CR>
+" switch to previous buffer
 nmap <M-{> :bprevious!<CR>
-
-" Assign hotkeys to open and close buffers
+" open a new buffer
 nmap <M-t> :enew<CR>
+" close the current buffer
 nmap <M-w> :bdelete<CR>
+" close all other buffers
 nmap <M-S-w> :BufOnly<CR>
+" save all buffers
 nmap <M-S-s> :wall<CR>
 
 " Expand '%%' to current file path in command mode
