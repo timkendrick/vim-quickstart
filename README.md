@@ -84,6 +84,7 @@ With this setup, Vim will run in one of two different modes depending on the lau
 | [vim-airline](https://github.com/bling/vim-airline) | | ✔︎ | Improved status bar |
 | [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) | | ✔︎ | Code completion |
 | [Syntastic](https://github.com/scrooloose/syntastic) | | ✔︎ | Syntax checking |
+| [incsearch.vim](https://github.com/haya14busa/incsearch.vim) | | ✔︎ | Improved incremental search |
 | [EditorConfig](https://github.com/editorconfig/editorconfig-vim) | | ✔︎ | [Editorconfig](http://editorconfig.org/) support |
 | [ag.vim](https://github.com/rking/ag.vim) | | ✔︎ | Fast code search |
 | [fugitive.vim](https://github.com/tpope/vim-fugitive) | | ✔︎ | Git repository actions |
