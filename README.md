@@ -74,6 +74,8 @@ With this setup, Vim will run in one of two different modes depending on the lau
 | [abolish.vim](https://github.com/tpope/vim-abolish) | ✔︎ | ✔︎ | Smart word substitution |
 | [repeat.vim](https://github.com/tpope/vim-repeat) | ✔︎ | ✔︎ | Repeat complex actions |
 | [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) | ✔︎ | ✔︎ | Sublime-style multiple cursors |
+| [vim-textobj-user](https://github.com/kana/vim-textobj-user) | ✔︎ | ✔︎ | Custom text objects |
+| [vim-textobj-lastpat](https://github.com/kana/vim-textobj-lastpat) | ✔︎ | ✔︎ | 'Last search pattern' text object |
 | [emmet-vim](https://github.com/mattn/emmet-vim) | ✔︎ | ✔︎ | Dynamic HTML snippets |
 | [NERDTree](https://github.com/scrooloose/nerdtree) | | ✔︎ | File explorer sidebar |
 | [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) | | ✔︎ | Git status in file explorer |
