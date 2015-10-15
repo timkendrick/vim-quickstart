@@ -7,7 +7,6 @@ let g:quickstart_loaded_vimrc = 1
 " EDITOR SETTINGS
 
 set nocompatible                       " enable Vim mode
-set tabstop=4                          " visual tab width
 set number                             " show line numbers
 set relativenumber                     " show relative line numbers
 set showcmd                            " show most recent command in bottom bar
