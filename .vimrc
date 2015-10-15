@@ -48,6 +48,10 @@ endif
 
 " KEYBOARD MAPPINGS
 
+" reuse flags when repeating last substitution
+nnoremap & :&&<CR>
+xnoremap & :&&<CR>
+
 " duplicate line
 nmap <M-S-d> :t.<CR>
 
