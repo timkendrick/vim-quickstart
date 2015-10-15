@@ -37,15 +37,17 @@ These instructions should be everything you need to get up and running, starting
 	vim -c PluginInstall -c bdelete -c quit
 	```
 
-4. Install [The Silver Searcher](https://github.com/ggreer/the_silver_searcher) (used by the [ag.vim](https://github.com/rking/ag.vim) plugin):
+4. Install required binaries:
 
 	```bash
+	brew install editorconfig
 	brew install the_silver_searcher
+	~/.vim/bundle/YouCompleteMe/install.py
 	```
 
 5. Install the [Powerline fonts](https://github.com/powerline/fonts/archive/master.zip)
 
-5. Install MacVim (optional, but recommended):
+6. Install MacVim (optional, but recommended):
 
 	```bash
 	brew install macvim
