@@ -52,6 +52,9 @@ endif
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 
+"paste from system clipboard
+nmap <M-v> "+P
+
 " duplicate line
 nmap <M-S-d> :t.<CR>
 

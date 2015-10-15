@@ -105,6 +105,7 @@ With this setup, Vim will run in one of two different modes depending on the lau
 
 | Keyboard shortcut | Action | Terminal mode | GUI mode |
 | ----------------- | ------ | :-----------: | :------: |
+| <kbd>Alt</kbd>+<kbd>v</kbd> | Paste from system clipboard | ✔︎ | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>d</kbd> | Duplicate line | ✔︎ | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>o</kbd> | Insert new line below cursor | ✔︎ | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>o</kbd> | Insert new line above cursor | ✔︎ | ✔︎ |
