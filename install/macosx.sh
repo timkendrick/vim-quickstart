@@ -21,7 +21,7 @@ echo "[vim-quickstart] Installing Vundle plugins..."
 vim -c PluginInstall -c qa
 
 echo "[vim-quickstart] Installing additional binaries..."
-brew install caskroom/cask/brew-cask editorconfig the_silver_searcher macvim
+brew install caskroom/cask/brew-cask editorconfig the_silver_searcher
 brew tap caskroom/fonts
 brew cask install font-dejavu-sans-mono-for-powerline
 
