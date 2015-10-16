@@ -66,15 +66,17 @@ These instructions should be everything you need to get up and running, starting
 When launching Vim via Terminal.app, make sure **Terminal > Preferences > Profiles > Keyboard > Use Option as Meta key** is selected to enable all keyboard shortcuts.
 
 
-## Terminal mode vs GUI mode
+## User guide
 
-With this setup, Vim will run in one of two different modes depending on the launch environment:
+### Terminal mode vs GUI mode
+
+With the vim-quickstart setup, Vim will run in one of two different modes depending on the launch environment:
 
 - When launched in a terminal shell, Vim will run in **Terminal mode**. This loads a minimal set of plugins, which can be useful for fast editing of individual files.
 - When launched in a GUI (e.g. MacVim or GVim), Vim will run in **GUI mode**. This loads a richer set of plugins for a more IDE-like experience, which can be useful when working within larger projects.
 
 
-## Included plugins
+### Included plugins
 
 | Plugin | Terminal mode | GUI mode | Purpose |
 | ------ | :-----------: | :------: | ------- |
@@ -104,7 +106,7 @@ With this setup, Vim will run in one of two different modes depending on the lau
 | [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) | | ✔︎ | [Solarized](http://ethanschoonover.com/solarized) color scheme |
 
 
-## Included macros
+### Included macros
 
 | Macro | Terminal mode | GUI mode | Purpose |
 | ----- | :-----------: | :------: | ------- |
@@ -112,7 +114,7 @@ With this setup, Vim will run in one of two different modes depending on the lau
 
 
 
-## Keyboard mappings
+### Keyboard mappings
 
 | Keyboard shortcut | Action | Terminal mode | GUI mode |
 | ----------------- | ------ | :-----------: | :------: |
