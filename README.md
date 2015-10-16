@@ -19,43 +19,46 @@ These instructions should be everything you need to get up and running, starting
 
 #### Option 1: Quick installation
 
-1. Paste the following script into a terminal:
+1. Install [Homebrew](http://brew.sh)
+
+2. Paste the following script into a terminal:
 
 	```bash
 	bash -c "$(curl -fsSL https://raw.githubusercontent.com/timkendrick/vim-quickstart/master/install/macosx.sh)"
 	```
 
-2. Install [MacVim](https://github.com/macvim-dev/macvim/releases)
+3. Install [MacVim](https://github.com/macvim-dev/macvim/releases)
+
 
 #### Option 2: Manual installation
 
-1. Download the initialization script and add it to your Vim config:
+1. Install [Homebrew](http://brew.sh)
+
+2. Install the quickstart bundle and add it to your Vim setup:
 
 	```bash
-	git clone https://github.com/timkendrick/vim-quickstart.git
-	echo "source $(pwd)/vim-quickstart/quickstart.vim" >> ~/.vimrc
+	git clone https://github.com/timkendrick/vim-quickstart.git /.vim/bundle/vim-quickstart
+	echo "set runtimepath+=~/.vim/bundle/vim-quickstart" >> ~/.vimrc
+	echo "quickstart#init()" >> ~/.vimrc
 	```
 
-2. Install the [Vundle](https://github.com/VundleVim/Vundle.vim) package manager (used to install Vim plugins):
+3. Install the [Vundle](https://github.com/VundleVim/Vundle.vim) package manager (used to install Vim plugins):
 
 	```bash
 	git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 	```
-
-3. Install Vundle plugins:
+4. Install Vundle plugins:
 
 	```bash
-	vim -c PluginInstall -c qa
+	vim -c QuickstartInstall -c '!~/.vim/bundle/YouCompleteMe/install.py' -c qa
 	```
 
-4. Install additional binaries:
+5. Install additional binaries:
 
 	```bash
 	brew install caskroom/cask/brew-cask editorconfig the_silver_searcher
 	brew tap caskroom/fonts
 	brew cask install font-dejavu-sans-mono-for-powerline
-
-	~/.vim/bundle/YouCompleteMe/install.py
 	```
 
 5. Install [MacVim](https://github.com/macvim-dev/macvim/releases) (optional, but recommended)
