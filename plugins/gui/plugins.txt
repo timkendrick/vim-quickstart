@@ -1,0 +1,13 @@
+scrooloose/syntastic
+ctrlpvim/ctrlp.vim
+tpope/vim-fugitive
+rking/ag.vim
+Valloric/YouCompleteMe
+bling/vim-airline
+scrooloose/nerdtree
+Xuyuanp/nerdtree-git-plugin
+airblade/vim-gitgutter
+editorconfig/editorconfig-vim
+schickling/vim-bufonly
+haya14busa/incsearch.vim
+altercation/vim-colors-solarized

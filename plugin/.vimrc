@@ -47,10 +47,10 @@ nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 
 "paste from system clipboard
-nmap <M-v> "+P
+nnoremap <M-v> "+P
 
 " duplicate line
-nmap <M-S-d> :t.<CR>
+nnoremap <M-S-d> :t.<CR>
 
 " search for visual selection
 xnoremap * :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>/<C-r>=@/<CR><CR>

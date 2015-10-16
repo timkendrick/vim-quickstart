@@ -1,0 +1,13 @@
+tpope/vim-repeat
+tpope/vim-unimpaired
+tpope/vim-surround
+tpope/vim-commentary
+tpope/vim-abolish
+terryma/vim-multiple-cursors
+terryma/vim-expand-region
+kana/vim-textobj-user
+kana/vim-textobj-lastpat
+matze/vim-move
+mattn/emmet-vim
+roryokane/detectindent
+timkendrick/vim-indent
