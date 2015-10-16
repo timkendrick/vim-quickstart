@@ -116,7 +116,6 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | Matchit | ✔︎ | ✔︎ | Jump to block start/end |
 
 
-
 ### Keyboard mappings
 
 | Keyboard shortcut | Action | Terminal mode | GUI mode |
@@ -136,3 +135,34 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | <kbd>Alt</kbd>+<kbd>Tab</kbd> | Toggle NERDTree sidebar | | ✔︎ |
 
 See plugin documentation for additional keyboard mappings.
+
+
+### Customizing your `.vimrc`
+
+You can add your own custom configuration to your `.vimrc` file to customize your setup.
+
+Note that any configuration added *before* the `quickstart#init()` call may be overridden by vim-quickstart, so it's recommended that you add your custom configuration *after* the `quickstart#init()` call.
+
+
+#### Loading additional plugins
+
+vim-quickstart uses [Vundle](https://github.com/VundleVim/Vundle.vim) to manage its plugins.
+
+To load additional Vundle plugins, pass a list of plugin names to the `quickstart#init()` function in your `.vimrc`:
+
+```vim
+set runtimepath+=~/.vim/bundle/vim-quickstart
+quickstart#init(['pangloss/vim-javascript', 'marijnh/tern_for_vim'])
+```
+
+...or on multiple lines:
+
+```vim
+set runtimepath+=~/.vim/bundle/vim-quickstart
+quickstart#init([
+\ 'pangloss/vim-javascript',
+\ 'marijnh/tern_for_vim'
+\ ])
+```
+
+In the examples above, Vundle will load the `vim-javascript` and `tern_for_vim` plugins in addition to the vim-quickstart plugins.
