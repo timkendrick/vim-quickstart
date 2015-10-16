@@ -1,12 +1,12 @@
 let g:quickstart_path = expand('<sfile>:p:h:h')
 
-function! quickstart#init(plugins)
+function! quickstart#init(...)
 
 	" get plugin list
 	let plugins_path = g:quickstart_path . "/plugins"
 	let plugins_terminal = readfile(plugins_path . "/terminal/plugins.txt")
  	let plugins_gui = has("gui_running") ? readfile(plugins_path . "/gui/plugins.txt") : []
-	let plugins_user = a:plugins
+	let plugins_user = a:0 < 1 ? [] : a:1
 
 	" load plugins
 	call s:LoadPlugins(plugins_terminal + plugins_gui + plugins_user)
@@ -33,6 +33,8 @@ function! quickstart#install()
 		endfor
 		filetype plugin indent on
 	endif
+
+	" install Vundle plugins
 	PluginInstall
 endfunction
 
