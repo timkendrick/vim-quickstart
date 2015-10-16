@@ -21,8 +21,7 @@ These instructions should be everything you need to get up and running, starting
 
 	```bash
 	git clone https://github.com/timkendrick/vim-quickstart.git
-	echo "source $(pwd)/vim-quickstart/.vimrc" >> ~/.vimrc
-	echo "source $(pwd)/vim-quickstart/.gvimrc" >> ~/.gvimrc
+	echo "source $(pwd)/vim-quickstart/quickstart.vim" >> ~/.vimrc
 	```
 
 2. Install the [Vundle](https://github.com/VundleVim/Vundle.vim) package manager (used to install Vim plugins):
