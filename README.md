@@ -17,7 +17,7 @@ These instructions should be everything you need to get up and running, starting
 
 ### Mac OS X
 
-1. Download the configuration files and include them in your Vim config:
+1. Download the initialization script and add it to your Vim config:
 
 	```bash
 	git clone https://github.com/timkendrick/vim-quickstart.git
@@ -33,24 +33,21 @@ These instructions should be everything you need to get up and running, starting
 3. Install Vundle plugins:
 
 	```bash
-	vim -c PluginInstall -c bdelete -c quit
+	vim -c PluginInstall -c qa
 	```
 
-4. Install required binaries:
+4. Install additional binaries:
 
 	```bash
-	brew install editorconfig
-	brew install the_silver_searcher
+	brew install caskroom/cask/brew-cask editorconfig the_silver_searcher
+	brew tap caskroom/fonts
+	brew cask install font-dejavu-sans-mono-for-powerline
+
 	~/.vim/bundle/YouCompleteMe/install.py
 	```
 
-5. Install the [Powerline fonts](https://github.com/powerline/fonts/archive/master.zip)
+5. Install [MacVim](https://github.com/macvim-dev/macvim/releases) (optional, but recommended)
 
-6. Install MacVim (optional, but recommended):
-
-	```bash
-	brew install macvim
-	```
 
 #### Mac OS X Installation notes
 
