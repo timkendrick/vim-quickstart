@@ -17,6 +17,18 @@ These instructions should be everything you need to get up and running, starting
 
 ### Mac OS X
 
+#### Option 1: Quick installation
+
+1. Paste the following script into a terminal:
+
+	```bash
+	bash -c "$(curl -fsSL https://raw.githubusercontent.com/timkendrick/vim-quickstart/master/install/macosx.sh)"
+	```
+
+2. Install [MacVim](https://github.com/macvim-dev/macvim/releases)
+
+#### Option 2: Manual installation
+
 1. Download the initialization script and add it to your Vim config:
 
 	```bash
