@@ -64,11 +64,6 @@ These instructions should be everything you need to get up and running, starting
 5. Install [MacVim](https://github.com/macvim-dev/macvim/releases) (optional, but recommended)
 
 
-#### Mac OS X Installation notes
-
-When launching Vim via Terminal.app, make sure **Terminal > Preferences > Profiles > Keyboard > Use Option as Meta key** is selected to enable all keyboard shortcuts.
-
-
 ## User guide
 
 ### Terminal mode vs GUI mode
@@ -118,6 +113,8 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 
 ### Keyboard mappings
 
+When launching Vim in OS X via Terminal.app, make sure **Terminal > Preferences > Profiles > Keyboard > Use Option as Meta key** is selected to enable all keyboard shortcuts.
+
 | Keyboard shortcut | Action | Terminal mode | GUI mode |
 | ----------------- | ------ | :-----------: | :------: |
 | <kbd>Alt</kbd>+<kbd>v</kbd> | Paste from system clipboard | ✔︎ | ✔︎ |
@@ -140,7 +137,7 @@ See plugin documentation for additional keyboard mappings.
 
 ### Customizing your `.vimrc`
 
-You can add your own custom configuration to your `.vimrc` file to customize your setup.
+You can add your own custom configuration to your `~/.vimrc` file to customize your setup.
 
 Note that any configuration added *before* the `quickstart#init()` call may be overridden by vim-quickstart, so it's recommended that you add your custom configuration *after* the `quickstart#init()` call.
 
@@ -149,7 +146,7 @@ Note that any configuration added *before* the `quickstart#init()` call may be o
 
 vim-quickstart uses [Vundle](https://github.com/VundleVim/Vundle.vim) to manage its plugins.
 
-To load additional Vundle plugins, pass a list of plugin names to the `quickstart#init()` function in your `.vimrc`:
+To load additional Vundle plugins, pass a list of plugin names to the `quickstart#init()` function in your `~/.vimrc` file:
 
 ```vim
 set runtimepath+=~/.vim/bundle/vim-quickstart
