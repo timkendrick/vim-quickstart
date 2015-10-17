@@ -57,7 +57,7 @@ nnoremap <M-S-d> :t.<CR>
 " search for current selection
 nnoremap <silent> <M-e> :<C-u>call <SID>PopulateSearchRegisterFromCurrentWord()<CR>
 xnoremap <silent> <M-e> :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>
-noremap <silent> * :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! /<C-r>=@/<CR><C-v><CR><CR>
+xnoremap <silent> * :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! /<C-r>=@/<CR><C-v><CR><CR>
 xnoremap <silent> # :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! ?<C-r>=@/<CR><C-v><CR><CR>
 
 function! s:PopulateSearchRegisterFromCurrentWord()
