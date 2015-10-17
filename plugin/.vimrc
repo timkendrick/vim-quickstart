@@ -52,13 +52,23 @@ nnoremap <M-v> "+P
 " duplicate line
 nnoremap <M-S-d> :t.<CR>
 
-" search for visual selection
-xnoremap * :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>/<C-r>=@/<CR><CR>
-xnoremap # :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>#<C-r>=@/<CR><CR>
+" search for current selection
+nnoremap <silent> <M-e> :<C-u>call <SID>PopulateSearchRegisterFromCurrentWord()<CR>
+xnoremap <silent> <M-e> :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>
+noremap <silent> * :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! /<C-r>=@/<CR><C-v><CR><CR>
+xnoremap <silent> # :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! ?<C-r>=@/<CR><C-v><CR><CR>
+
+function! s:PopulateSearchRegisterFromCurrentWord()
+	call s:PopulateSearchRegister('yiw')
+endfunction
 
 function! s:PopulateSearchRegisterFromVisualSelection()
+	call s:PopulateSearchRegister('gvy')
+endfunction
+
+function! s:PopulateSearchRegister(command)
 	let existing_register_value = @0
-	normal! gvy
+	execute 'normal! ' . a:command
 	let @/ = '\V' . substitute(escape(@0, '/\'), '\n', '\\n', 'g')
 	let @0 = existing_register_value
 endfunction
