@@ -1,0 +1,1 @@
+noremap <M-:> :VimShell<CR>

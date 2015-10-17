@@ -10,4 +10,6 @@ airblade/vim-gitgutter
 editorconfig/editorconfig-vim
 schickling/vim-bufonly
 haya14busa/incsearch.vim
+Shougo/vimshell.vim
+Shougo/vimproc.vim
 altercation/vim-colors-solarized

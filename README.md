@@ -101,6 +101,8 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [ag.vim](https://github.com/rking/ag.vim) | | ✔︎ | Fast code search |
 | [fugitive.vim](https://github.com/tpope/vim-fugitive) | | ✔︎ | Git repository actions |
 | [vim-bufonly](https://github.com/schickling/vim-bufonly) | | ✔︎ | Allow closing all inactive buffers |
+| [VimShell](https://github.com/Shougo/vimshell.vim) | | ✔︎ | Terminal shell within Vim |
+| [vimproc](https://github.com/Shougo/vimproc.vim) | | ✔︎ | Asynchronous command execution |
 | [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) | | ✔︎ | [Solarized](http://ethanschoonover.com/solarized) color scheme |
 
 
