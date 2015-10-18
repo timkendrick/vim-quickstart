@@ -123,7 +123,7 @@ When launching Vim in OS X via Terminal.app, make sure **Terminal > Preferences 
 | ----------------- | ------ | :-----------: | :------: |
 | <kbd>Alt</kbd>+<kbd>v</kbd> | Paste from system clipboard | ✔︎ | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>e</kbd> | Use current word/selection for search | ✔︎ | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>d</kbd> | Duplicate line | ✔︎ | ✔︎ |
+| <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>d</kbd> | Duplicate current line/selection | ✔︎ | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>o</kbd> | Insert new line below cursor | ✔︎ | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>o</kbd> | Insert new line above cursor | ✔︎ | ✔︎ |
 | <kbd>Alt</kbd>+<kbd>j</kbd> | Move line down | ✔︎ | ✔︎ |

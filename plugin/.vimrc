@@ -51,8 +51,16 @@ xnoremap & :&&<CR>
 "paste from system clipboard
 nnoremap <M-v> "+P
 
-" duplicate line
-nnoremap <M-S-d> :t.<CR>
+" duplicate current selection
+nnoremap <silent> <M-S-d> :t.<CR>
+xnoremap <silent> <M-S-d> :<C-u>call <SID>DuplicateVisualSelection()<CR>
+
+function! s:DuplicateVisualSelection()
+	let existing_register_value = @0
+	execute 'normal! gvy`>p'
+	let @0 = existing_register_value
+endfunction
+
 
 " search for current selection
 nnoremap <silent> <M-e> :<C-u>call <SID>PopulateSearchRegisterFromCurrentWord()<CR>
