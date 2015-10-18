@@ -87,12 +87,14 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [vim-expand-region](https://github.com/terryma/vim-expand-region) | ✔︎ | ✔︎ | Expand selection to parent block |
 | [vim-textobj-user](https://github.com/kana/vim-textobj-user) | ✔︎ | ✔︎ | Custom text objects |
 | [vim-textobj-lastpat](https://github.com/kana/vim-textobj-lastpat) | ✔︎ | ✔︎ | 'Last search pattern' text object |
+| [vim-move](https://github.com/matze/vim-move) | ✔︎ | ✔︎ | Move lines up/down |
 | [vim-indent](https://github.com/timkendrick/vim-indent) | ✔︎ | ✔︎ | Convert between tabs and spaces |
 | [DetectIndent](https://github.com/roryokane/detectindent) | ✔︎ | ✔︎ | Automatic indentation detection |
 | [emmet-vim](https://github.com/mattn/emmet-vim) | ✔︎ | ✔︎ | Dynamic HTML snippets |
 | [NERDTree](https://github.com/scrooloose/nerdtree) | | ✔︎ | File explorer sidebar |
 | [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) | | ✔︎ | Git status in file explorer |
 | [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | | ✔︎ | Git status in gutter |
+| [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) | | ✔︎ | Fuzzy file searching |
 | [vim-airline](https://github.com/bling/vim-airline) | | ✔︎ | Improved status bar |
 | [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) | | ✔︎ | Code completion |
 | [Syntastic](https://github.com/scrooloose/syntastic) | | ✔︎ | Syntax checking |
