@@ -117,9 +117,9 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | Matchit | ✔︎ | ✔︎ | Jump to block start/end |
 
 
-### Keyboard mappings
+### Key mappings
 
-> When launching Vim in OS X within Terminal.app, the command key (⌘) cannot be used for keyboard shortcuts.
+> When running Vim in OS X within Terminal.app, the command key (⌘) cannot be used in key mappings.
 >
 > To use these keyboard shortcuts in the OS X Terminal, you can use the option key (⌥) instead of the command key, by making sure the **Terminal > Preferences > Profiles > Keyboard > Use Option as Meta key** option is checked.
 
@@ -128,16 +128,16 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | <kbd>⌘</kbd>+<kbd>V</kbd> | Paste from system clipboard | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>E</kbd> | Use current word/selection for search | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>D</kbd> | Duplicate current line/selection | ✔︎ | ✔︎ |
-| <kbd>⌘</kbd>+<kbd>⏎</kbd> | Insert new line below cursor | ✔︎ | ✔︎ |
-| <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>⏎</kbd> | Insert new line above cursor | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>J</kbd> | Move line down | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>K</kbd> | Move line up | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>⏎</kbd> | Insert new line below cursor | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>⏎</kbd> | Insert new line above cursor | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>T</kbd> | Create new buffer | | ✔︎ |
-| <kbd>⌘</kbd>+<kbd>{</kbd> | Switch to previous buffer | | ✔︎ |
-| <kbd>⌘</kbd>+<kbd>}</kbd> | Switch to next buffer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>W</kbd> | Close current buffer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>W</kbd> | Close all buffers except current buffer | | ✔︎ |
-| <kbd>⌘</kbd>+<kbd>1</kbd> | Toggle NERDTree sidebar | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>{</kbd> | Switch to previous buffer | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>}</kbd> | Switch to next buffer | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>1</kbd> | Toggle file explorer | | ✔︎ |
 
 See plugin documentation for additional keyboard mappings.
 
