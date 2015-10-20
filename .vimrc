@@ -27,7 +27,7 @@ set backupdir=$TMPDIR,$TMP,$TEMP       " set backup directory
 set undodir=$TMPDIR,$TMP,$TEMP         " set undo directory
 
 
-" KEYBOARD MAPPINGS
+" KEY MAPPINGS
 
 " reuse flags when repeating last substitution
 nnoremap & :&&<CR>
