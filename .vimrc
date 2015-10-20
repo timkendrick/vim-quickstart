@@ -75,17 +75,10 @@ runtime 'macros/matchit.vim'
 
 " map OS X terminal meta-keys to command-keys
 if !has("gui_running")
-	let keycode = 32
-	while keycode <= 126
-		if (keycode == 32)
-			execute "map <Esc><Space> <D-Space>"
-		elseif (keycode == 91)
-			" Mapping <Esc>[ causes problems
-		elseif (keycode == 124)
-			execute "map <Esc><Bar> <D-Bar>"
-		else
-			let char = nr2char(keycode)
-			execute "map <Esc>" . char . " <D-" . char . ">"
+	let keycode = 8
+	while keycode < 128
+		if keycode != char2nr('[') " mapping `<Esc>[` causes problems
+			execute "map <Esc><Char-" . keycode . "> <D-Char-" . keycode . ">"
 		endif
 		let keycode = keycode + 1
 	endw
