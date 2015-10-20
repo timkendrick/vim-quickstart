@@ -33,17 +33,6 @@ set undodir=$TMPDIR,$TMP,$TEMP         " set undo directory
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 
-" duplicate current selection
-nnoremap <silent> <D-D> :t.<CR>
-xnoremap <silent> <D-D> :<C-u>call <SID>DuplicateVisualSelection()<CR>
-
-function! s:DuplicateVisualSelection()
-	let existing_register_value = @0
-	execute 'normal! gvy`>p'
-	let @0 = existing_register_value
-endfunction
-
-
 " search for current selection
 nnoremap <silent> <D-e> :<C-u>call <SID>PopulateSearchRegisterFromCurrentWord()<CR>
 xnoremap <silent> <D-e> :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! gv<CR>

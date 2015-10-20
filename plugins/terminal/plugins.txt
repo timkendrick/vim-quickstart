@@ -12,3 +12,4 @@ matze/vim-move
 mattn/emmet-vim
 roryokane/detectindent
 timkendrick/vim-indent
+timkendrick/vim-duplicate
