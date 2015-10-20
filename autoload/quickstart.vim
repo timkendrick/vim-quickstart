@@ -1,5 +1,8 @@
 let g:quickstart_path = expand('<sfile>:p:h:h')
 
+" define install command
+command! -nargs=0 QuickstartInstall call quickstart#install()
+
 function! quickstart#init(...)
 
 	" get plugin list

@@ -38,8 +38,10 @@ These instructions should be everything you need to get up and running, starting
 
 	```bash
 	git clone https://github.com/timkendrick/vim-quickstart.git /.vim/bundle/vim-quickstart
+	echo "source ~/.vim/bundle/vim-quickstart/.vimrc" >> ~/.vimrc
 	echo "set runtimepath+=~/.vim/bundle/vim-quickstart" >> ~/.vimrc
 	echo "quickstart#init()" >> ~/.vimrc
+	echo "source ~/.vim/bundle/vim-quickstart/.gvimrc" >> ~/.gvimrc
 	```
 
 3. Install the [Vundle](https://github.com/VundleVim/Vundle.vim) package manager (used to install Vim plugins):
@@ -117,24 +119,25 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 
 ### Keyboard mappings
 
-When launching Vim in OS X via Terminal.app, make sure **Terminal > Preferences > Profiles > Keyboard > Use Option as Meta key** is selected to enable all keyboard shortcuts.
+> When launching Vim in OS X within Terminal.app, the command key (⌘) cannot be used for keyboard shortcuts.
+>
+> To use these keyboard shortcuts in the OS X Terminal, you can use the option key (⌥) instead of the command key, by making sure the **Terminal > Preferences > Profiles > Keyboard > Use Option as Meta key** option is checked.
 
 | Keyboard shortcut | Action | Terminal mode | GUI mode |
 | ----------------- | ------ | :-----------: | :------: |
-| <kbd>Alt</kbd>+<kbd>v</kbd> | Paste from system clipboard | ✔︎ | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>e</kbd> | Use current word/selection for search | ✔︎ | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>d</kbd> | Duplicate current line/selection | ✔︎ | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>o</kbd> | Insert new line below cursor | ✔︎ | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>o</kbd> | Insert new line above cursor | ✔︎ | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>j</kbd> | Move line down | ✔︎ | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>k</kbd> | Move line up | ✔︎ | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>t</kbd> | Create new buffer | | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>{</kbd> | Switch to previous buffer | | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>}</kbd> | Switch to next buffer | | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>w</kbd> | Close current buffer | | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>w</kbd> | Close all buffers except current buffer | | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>s</kbd> | Save all buffers | | ✔︎ |
-| <kbd>Alt</kbd>+<kbd>Tab</kbd> | Toggle NERDTree sidebar | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>V</kbd> | Paste from system clipboard | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>E</kbd> | Use current word/selection for search | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>D</kbd> | Duplicate current line/selection | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>⏎</kbd> | Insert new line below cursor | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>⏎</kbd> | Insert new line above cursor | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>J</kbd> | Move line down | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>K</kbd> | Move line up | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>T</kbd> | Create new buffer | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>{</kbd> | Switch to previous buffer | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>}</kbd> | Switch to next buffer | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>W</kbd> | Close current buffer | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>W</kbd> | Close all buffers except current buffer | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>1</kbd> | Toggle NERDTree sidebar | | ✔︎ |
 
 See plugin documentation for additional keyboard mappings.
 

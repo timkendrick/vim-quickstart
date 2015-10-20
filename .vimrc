@@ -27,33 +27,15 @@ set backupdir=$TMPDIR,$TMP,$TEMP       " set backup directory
 set undodir=$TMPDIR,$TMP,$TEMP         " set undo directory
 
 
-" OS INTEGRATION
-
-" fix OS X terminal meta-keys
-if !has("gui_running")
-	let char = 'a'
-	while char <= 'z'
-		exec "map <Esc>" . char . " <M-" . char . ">"
-		exec "map <Esc>" . toupper(char) . " <M-S-" . char . ">"
-		let char = nr2char(char2nr(char) + 1)
-	endw
-	" prevent <M-S-o> from clobbering arrow keys
-	unmap <Esc>O
-endif
-
-
 " KEYBOARD MAPPINGS
 
 " reuse flags when repeating last substitution
 nnoremap & :&&<CR>
 xnoremap & :&&<CR>
 
-"paste from system clipboard
-nnoremap <M-v> "+P
-
 " duplicate current selection
-nnoremap <silent> <M-S-d> :t.<CR>
-xnoremap <silent> <M-S-d> :<C-u>call <SID>DuplicateVisualSelection()<CR>
+nnoremap <silent> <D-D> :t.<CR>
+xnoremap <silent> <D-D> :<C-u>call <SID>DuplicateVisualSelection()<CR>
 
 function! s:DuplicateVisualSelection()
 	let existing_register_value = @0
@@ -63,8 +45,8 @@ endfunction
 
 
 " search for current selection
-nnoremap <silent> <M-e> :<C-u>call <SID>PopulateSearchRegisterFromCurrentWord()<CR>
-xnoremap <silent> <M-e> :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! gv<CR>
+nnoremap <silent> <D-e> :<C-u>call <SID>PopulateSearchRegisterFromCurrentWord()<CR>
+xnoremap <silent> <D-e> :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! gv<CR>
 xnoremap <silent> * :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! /<C-r>=@/<CR><C-v><CR><CR>
 xnoremap <silent> # :<C-u>call <SID>PopulateSearchRegisterFromVisualSelection()<CR>:<C-u>normal! ?<C-r>=@/<CR><C-v><CR><CR>
 
@@ -87,3 +69,24 @@ endfunction
 " MACROS
 
 runtime 'macros/matchit.vim'
+
+
+" OS INTEGRATION
+
+" map OS X terminal meta-keys to command-keys
+if !has("gui_running")
+	let keycode = 32
+	while keycode <= 126
+		if (keycode == 32)
+			execute "map <Esc><Space> <D-Space>"
+		elseif (keycode == 91)
+			" Mapping <Esc>[ causes problems
+		elseif (keycode == 124)
+			execute "map <Esc><Bar> <D-Bar>"
+		else
+			let char = nr2char(keycode)
+			execute "map <Esc>" . char . " <D-" . char . ">"
+		endif
+		let keycode = keycode + 1
+	endw
+endif
