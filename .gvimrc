@@ -78,6 +78,7 @@ if has("gui_macvim")
 	" Remap existing menu bindings
 	macmenu File.New\ Tab key=<nop>
 	macmenu File.Close key=<nop>
+	macmenu File.Print key=<nop>
 	macmenu Edit.Find.Use\ Selection\ for\ Find key=<nop>
 	macmenu Window.Select\ Previous\ Tab key=<nop>
 	macmenu Window.Select\ Next\ Tab key=<nop>
