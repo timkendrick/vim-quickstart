@@ -87,6 +87,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [repeat.vim](https://github.com/tpope/vim-repeat) | ✔︎ | ✔︎ | Repeat complex actions |
 | [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors) | ✔︎ | ✔︎ | Sublime-style multiple cursors |
 | [vim-expand-region](https://github.com/terryma/vim-expand-region) | ✔︎ | ✔︎ | Expand selection to parent block |
+| [incsearch.vim](https://github.com/haya14busa/incsearch.vim) | ✔︎ | ✔︎ | Improved incremental search |
 | [vim-textobj-user](https://github.com/kana/vim-textobj-user) | ✔︎ | ✔︎ | Custom text objects |
 | [vim-textobj-lastpat](https://github.com/kana/vim-textobj-lastpat) | ✔︎ | ✔︎ | 'Last search pattern' text object |
 | [vim-move](https://github.com/matze/vim-move) | ✔︎ | ✔︎ | Move lines up/down |
@@ -100,7 +101,6 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [vim-airline](https://github.com/bling/vim-airline) | | ✔︎ | Improved status bar |
 | [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) | | ✔︎ | Code completion |
 | [Syntastic](https://github.com/scrooloose/syntastic) | | ✔︎ | Syntax checking |
-| [incsearch.vim](https://github.com/haya14busa/incsearch.vim) | | ✔︎ | Improved incremental search |
 | [EditorConfig](https://github.com/editorconfig/editorconfig-vim) | | ✔︎ | [Editorconfig](http://editorconfig.org/) support |
 | [ag.vim](https://github.com/rking/ag.vim) | | ✔︎ | Fast code search |
 | [fugitive.vim](https://github.com/tpope/vim-fugitive) | | ✔︎ | Git repository actions |

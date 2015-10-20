@@ -5,6 +5,7 @@ tpope/vim-commentary
 tpope/vim-abolish
 terryma/vim-multiple-cursors
 terryma/vim-expand-region
+haya14busa/incsearch.vim
 kana/vim-textobj-user
 kana/vim-textobj-lastpat
 matze/vim-move
