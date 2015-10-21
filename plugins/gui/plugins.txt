@@ -9,6 +9,7 @@ Xuyuanp/nerdtree-git-plugin
 airblade/vim-gitgutter
 editorconfig/editorconfig-vim
 schickling/vim-bufonly
+timkendrick/vim-buffer-close
 Shougo/vimshell.vim
 Shougo/vimproc.vim
 altercation/vim-colors-solarized

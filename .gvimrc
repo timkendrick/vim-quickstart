@@ -46,7 +46,7 @@ amenu <silent> 10.300 &File.New\ Buffer <D-t>
 amenu <silent> 10.311 &File.Revert :e!<CR>
 
 " Close the current buffer
-nmap <D-w> :call <SID>CloseBuffer()<CR>
+nmap <D-w> :BufferClose<CR>
 amenu <silent> 10.333 &File.Close\ Buffer <D-w>
 
 " Close other buffers
@@ -57,19 +57,6 @@ amenu <silent> 10.333 &File.Close\ Others <D-∑>
 nmap <D-1> :NERDTreeToggle<CR>
 amenu <silent> 9998.365 Window.File\ Explorer <D-1>
 amenu 9998.366 Window.-SEP3- <Nop>
-
-
-function! s:CloseBuffer()
-	let buffer_id = '%'
-	let buffer_count = len(filter(range(1, bufnr('$')), 'buflisted(v:val)'))
-	let is_last_buffer = buffer_count == 1
-	let is_empty_buffer = (bufname(buffer_id) == '') && !getbufvar(buffer_id, '&modified')
-	if is_last_buffer && is_empty_buffer
-		quit
-	else
-		confirm bdelete
-	endif
-endfunction
 
 
 " MacVim menu items
