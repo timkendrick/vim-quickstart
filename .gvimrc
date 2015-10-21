@@ -92,19 +92,3 @@ if has("gui_macvim")
 	macmenu File.Close\ Others key=<D-M-w> alt=YES
 	macmenu Window.File\ Explorer key=<D-1>
 endif
-
-
-" Autocommands
-
-" Jump to the last position when reopening a file
-autocmd BufReadPost * if line("'\"") > 0 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
-
-" Perform startup actions
-function! s:StartUp()
-	if (argc() == 1 && isdirectory(argv(0)))
-		bdelete
-		NERDTree
-    end
-endfunction
-
-autocmd VimEnter * call <SID>StartUp()
