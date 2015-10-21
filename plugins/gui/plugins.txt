@@ -10,6 +10,7 @@ airblade/vim-gitgutter
 editorconfig/editorconfig-vim
 schickling/vim-bufonly
 timkendrick/vim-buffer-close
+timkendrick/vim-reopen-file
 Shougo/vimshell.vim
 Shougo/vimproc.vim
 altercation/vim-colors-solarized
