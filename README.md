@@ -146,7 +146,7 @@ See plugin documentation for additional keyboard mappings.
 
 You can add your own custom configuration to your `~/.vimrc` file to customize your setup.
 
-Note that any configuration added *before* the `quickstart#init()` call may be overridden by vim-quickstart, so it's recommended that you add your custom configuration *after* the `quickstart#init()` call.
+It's recommended that you add your custom configuration *after* the `quickstart#init()` call. Any configuration added *before* the `quickstart#init()` call may be overridden by vim-quickstart.
 
 
 #### Loading additional plugins
