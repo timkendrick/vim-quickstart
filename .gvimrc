@@ -32,28 +32,28 @@ endif
 
 " Key mappings
 
-" expand '%%' to current file path in command mode
+" Expand '%%' to current file path in command mode
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
 
 " Menu items
 
-" open a new buffer
+" Open a new buffer
 nmap <D-t> :enew<CR>
 amenu <silent> 10.300 &File.New\ Buffer <D-t>
 
-" revert buffer
+" Revert buffer
 amenu <silent> 10.311 &File.Revert :e!<CR>
 
-" close the current buffer
+" Close the current buffer
 nmap <D-w> :call <SID>CloseBuffer()<CR>
 amenu <silent> 10.333 &File.Close\ Buffer <D-w>
 
-" close other buffers
+" Close other buffers
 nmap <D-∑> :BufOnly<CR>
 amenu <silent> 10.333 &File.Close\ Others <D-∑>
 
-" toggle file explorer
+" Toggle file explorer
 nmap <D-1> :NERDTreeToggle<CR>
 amenu <silent> 9998.365 Window.File\ Explorer <D-1>
 amenu 9998.366 Window.-SEP3- <Nop>
