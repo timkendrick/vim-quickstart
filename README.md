@@ -90,6 +90,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [incsearch.vim](https://github.com/haya14busa/incsearch.vim) | ✔︎ | ✔︎ | Improved incremental search |
 | [vim-textobj-user](https://github.com/kana/vim-textobj-user) | ✔︎ | ✔︎ | Custom text objects |
 | [vim-textobj-lastpat](https://github.com/kana/vim-textobj-lastpat) | ✔︎ | ✔︎ | 'Last search pattern' text object |
+| [CamelCaseMotion](https://github.com/bkad/CamelCaseMotion) | ✔︎ | ✔︎ | Camel-case motions |
 | [vim-move](https://github.com/matze/vim-move) | ✔︎ | ✔︎ | Move lines up/down |
 | [vim-indent](https://github.com/timkendrick/vim-indent) | ✔︎ | ✔︎ | Convert between tabs and spaces |
 | [vim-duplicate](https://github.com/timkendrick/vim-duplicate) | ✔︎ | ✔︎ | Duplicate the current selection |
@@ -129,6 +130,9 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 
 | Keyboard shortcut | Action | Terminal mode | GUI mode |
 | ----------------- | ------ | :-----------: | :------: |
+| <kbd>&#92;</kbd><kbd>w</kbd> | Jump to next camel-case word | ✔︎ | ✔︎ |
+| <kbd>&#92;</kbd><kbd>e</kbd> | Jump to end of camel-case word | ✔︎ | ✔︎ |
+| <kbd>&#92;</kbd><kbd>b</kbd> | Jump to beginning of camel-case word | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>V</kbd> | Paste from system clipboard | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>E</kbd> | Use current word/selection for search | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>D</kbd> | Duplicate current line/selection | ✔︎ | ✔︎ |

@@ -8,6 +8,7 @@ terryma/vim-expand-region
 haya14busa/incsearch.vim
 kana/vim-textobj-user
 kana/vim-textobj-lastpat
+bkad/CamelCaseMotion
 matze/vim-move
 mattn/emmet-vim
 roryokane/detectindent
