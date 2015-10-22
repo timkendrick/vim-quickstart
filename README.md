@@ -21,7 +21,7 @@ These instructions should be everything you need to get up and running, starting
 
 1. Install [Homebrew](http://brew.sh)
 
-2. Paste the following script into a terminal:
+2. Paste the following command into a terminal:
 
 	```bash
 	bash -c "$(curl -fsSL https://raw.githubusercontent.com/timkendrick/vim-quickstart/master/install/macosx.sh)"
