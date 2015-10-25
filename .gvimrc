@@ -36,12 +36,6 @@ if has("gui_macvim")
 endif
 
 
-" Key mappings
-
-" Expand '%%' to current file path in command mode
-cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
-
-
 " Menu items
 
 " Open a new buffer
