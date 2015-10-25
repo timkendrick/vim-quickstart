@@ -1,3 +1,4 @@
+timkendrick/vim-project
 scrooloose/syntastic
 ctrlpvim/ctrlp.vim
 tpope/vim-fugitive

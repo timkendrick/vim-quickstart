@@ -24,6 +24,12 @@ set hidden
 " Reload files when they are changed externally
 set autoread
 
+" Don't save configuration with sessions
+set sessionoptions-=options
+
+" Save window position with sessions
+set sessionoptions+=winpos
+
 " Prevent using option key as meta key
 if has("gui_macvim")
 	set nomacmeta
