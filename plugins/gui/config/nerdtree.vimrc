@@ -6,12 +6,22 @@ let g:NERDTreeQuitOnOpen=1
 let g:NERDTreeHijackNetrw=0
 let g:NERDTreeIgnore=['\.DS_Store$','\.git$']
 
-" Start with NERDTree panel expanded when opening folders
-function! s:StartExpanded()
-	if (argc() == 1 && isdirectory(argv(0)))
-		bdelete
+autocmd User ProjectOpen call <SID>ShowFileExplorerOnStartup()
+autocmd VimLeavePre * call <SID>HideFileExplorerBeforeExit()
+
+function! s:ShowFileExplorerOnStartup()
+	let is_single_buffer = bufnr('%') == bufnr('$')
+	let cwd = getcwd()
+	let is_file_explorer = is_single_buffer && (bufname('%') == cwd) || (bufname('%') == cwd . '/')
+	if is_file_explorer
+		bwipe
+	end
+	let is_empty_buffer = is_single_buffer && (bufname('%') == '')
+	if is_empty_buffer
 		NERDTree
-    end
+	endif
 endfunction
 
-autocmd VimEnter * call <SID>StartExpanded()
+function! s:HideFileExplorerBeforeExit()
+	NERDTreeClose
+endfunction
