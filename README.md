@@ -140,6 +140,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | <kbd>⌘</kbd>+<kbd>K</kbd> | Move line up | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>⏎</kbd> | Insert new line below cursor | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>⏎</kbd> | Insert new line above cursor | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>F</kbd> | Search within working directory | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>T</kbd> | Create new buffer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>W</kbd> | Close current buffer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>W</kbd> | Close all buffers except current buffer | | ✔︎ |
