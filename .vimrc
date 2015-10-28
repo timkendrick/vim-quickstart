@@ -27,13 +27,6 @@ set backupdir=$TMPDIR,$TMP,$TEMP       " set backup directory
 set undodir=$TMPDIR,$TMP,$TEMP         " set undo directory
 
 
-" KEY MAPPINGS
-
-" reuse flags when repeating last substitution
-nnoremap & :&&<CR>
-xnoremap & :&&<CR>
-
-
 " MACROS
 
 runtime 'macros/matchit.vim'
