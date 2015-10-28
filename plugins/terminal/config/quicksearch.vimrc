@@ -1,2 +1,2 @@
-map <D-e> <Plug>QuicksearchSetBuffer
+map <D-e> <Plug>QuicksearchPopulate
 map <D-R> <Plug>QuicksearchSubstitute
