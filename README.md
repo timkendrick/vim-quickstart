@@ -110,8 +110,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [vim-bufonly](https://github.com/schickling/vim-bufonly) | | ✔︎ | Allow closing all inactive buffers |
 | [vim-buffer-close](https://github.com/timkendrick/vim-buffer-close) | | ✔︎ | Close buffers gracefully |
 | [vim-reopen-file](https://github.com/timkendrick/vim-reopen-file) | | ✔︎ | Reopen files at the correct cursor position |
-| [VimShell](https://github.com/Shougo/vimshell.vim) | | ✔︎ | Terminal shell within Vim |
-| [vimproc](https://github.com/Shougo/vimproc.vim) | | ✔︎ | Asynchronous command execution |
+| [Conque-GDB](https://github.com/vim-scripts/Conque-GDB) | | ✔︎ | Terminal shell and debugger |
 | [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) | | ✔︎ | [Solarized](http://ethanschoonover.com/solarized) color scheme |
 
 
