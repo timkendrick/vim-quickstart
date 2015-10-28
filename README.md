@@ -135,6 +135,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | <kbd>&#92;</kbd><kbd>b</kbd> | Jump to beginning of camel-case word | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>V</kbd> | Paste from system clipboard | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>E</kbd> | Use current word/selection for search | ✔︎ | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>R</kbd> | Perform substitution with last search entry | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>⇧</kbd>+<kbd>D</kbd> | Duplicate current line/selection | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>J</kbd> | Move line down | ✔︎ | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>K</kbd> | Move line up | ✔︎ | ✔︎ |
