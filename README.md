@@ -153,6 +153,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | <kbd>⌘</kbd>+<kbd>1</kbd> | Toggle file explorer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>2</kbd> | Toggle quickfix list | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>3</kbd> | Toggle location list | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>0</kbd> | Toggle terminal | | ✔︎ |
 
 See plugin documentation for additional keyboard mappings.
 

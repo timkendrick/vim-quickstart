@@ -25,6 +25,10 @@ amenu <silent> 9998.362 Window.Quickfix\ List <D-2>
 map <D-3> :TogglePanelLocationList<CR>
 amenu <silent> 9998.363 Window.Location\ List <D-3>
 
+" Toggle terminal shell
+map <D-0> :ConqueTermSplit bash<CR>
+amenu <silent> 9998.368 Window.Terminal <D-0>
+
 
 amenu 9998.369 Window.-SEP3- <Nop>
 
@@ -48,4 +52,5 @@ if has("gui_macvim")
 	macmenu Window.File\ Explorer key=<D-1>
 	macmenu Window.Quickfix\ List key=<D-2>
 	macmenu Window.Location\ List key=<D-3>
+	macmenu Window.Terminal key=<D-0>
 endif
