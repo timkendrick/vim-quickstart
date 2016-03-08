@@ -10,6 +10,7 @@ easymotion/vim-easymotion
 kana/vim-textobj-user
 kana/vim-textobj-lastpat
 kana/vim-textobj-indent
+kana/vim-textobj-function
 bkad/CamelCaseMotion
 matze/vim-move
 roryokane/detectindent

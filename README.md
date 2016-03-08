@@ -90,6 +90,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [incsearch.vim](https://github.com/haya14busa/incsearch.vim) | ✔︎ | ✔︎ | Improved incremental search |
 | [vim-textobj-user](https://github.com/kana/vim-textobj-user) | ✔︎ | ✔︎ | Custom text objects |
 | [vim-textobj-indent](https://github.com/kana/vim-textobj-indent) | ✔︎ | ✔︎ | 'Current indent block' text object |
+| [vim-textobj-function](https://github.com/kana/vim-textobj-function) | ✔︎ | ✔︎ | 'Current function' text object |
 | [vim-textobj-lastpat](https://github.com/kana/vim-textobj-lastpat) | ✔︎ | ✔︎ | 'Last search pattern' text object |
 | [EasyMotion](https://github.com/easymotion/vim-easymotion) | ✔︎ | ✔︎ | Marker-based text motions |
 | [CamelCaseMotion](https://github.com/bkad/CamelCaseMotion) | ✔︎ | ✔︎ | Camel-case motions |
