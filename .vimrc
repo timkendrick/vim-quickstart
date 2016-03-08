@@ -11,7 +11,6 @@ set showcmd                            " show pending commands in status bar
 set incsearch                          " incremental search
 set hlsearch                           " highlight current search term
 set nrformats=                         " set number format to decimal
-set updatetime=250                     " editor update debounce
 set history=200                        " number of commands to store in history
 set lazyredraw                         " prevent unnecessary redraws
 set ttyfast                            " improve redraw performance
