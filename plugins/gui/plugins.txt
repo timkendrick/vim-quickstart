@@ -4,7 +4,8 @@ ctrlpvim/ctrlp.vim
 tpope/vim-fugitive
 rking/ag.vim
 Valloric/YouCompleteMe
-bling/vim-airline
+vim-airline/vim-airline
+vim-airline/vim-airline-themes
 scrooloose/nerdtree
 Xuyuanp/nerdtree-git-plugin
 airblade/vim-gitgutter
