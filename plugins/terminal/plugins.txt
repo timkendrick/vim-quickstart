@@ -10,7 +10,6 @@ kana/vim-textobj-user
 kana/vim-textobj-lastpat
 bkad/CamelCaseMotion
 matze/vim-move
-mattn/emmet-vim
 roryokane/detectindent
 timkendrick/vim-indent
 timkendrick/vim-duplicate

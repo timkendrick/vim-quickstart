@@ -96,7 +96,6 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [vim-duplicate](https://github.com/timkendrick/vim-duplicate) | ✔︎ | ✔︎ | Duplicate the current selection |
 | [vim-quicksearch](https://github.com/timkendrick/vim-quicksearch) | ✔︎ | ✔︎ | Search for the current selection |
 | [DetectIndent](https://github.com/roryokane/detectindent) | ✔︎ | ✔︎ | Automatic indentation detection |
-| [emmet-vim](https://github.com/mattn/emmet-vim) | ✔︎ | ✔︎ | Dynamic HTML snippets |
 | [NERDTree](https://github.com/scrooloose/nerdtree) | | ✔︎ | File explorer sidebar |
 | [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) | | ✔︎ | Git status in file explorer |
 | [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | | ✔︎ | Git status in gutter |
