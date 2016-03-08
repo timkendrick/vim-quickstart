@@ -60,7 +60,7 @@ These instructions should be everything you need to get up and running, starting
 	```bash
 	brew install caskroom/cask/brew-cask editorconfig the_silver_searcher
 	brew tap caskroom/fonts
-	brew cask install font-dejavu-sans-mono-for-powerline
+	brew cask install font-meslo-lg-for-powerline
 	```
 
 5. Install [MacVim](https://github.com/macvim-dev/macvim/releases) (optional, but recommended)

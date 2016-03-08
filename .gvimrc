@@ -1,5 +1,5 @@
 " User Interface
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h14,Monaco:h14
+set guifont=Meslo\ LG\ S\ for\ Powerline:h14,Menlo:14,Monaco:h14,Courier:h14
 set background=dark
 colorscheme solarized
 

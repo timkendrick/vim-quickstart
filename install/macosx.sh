@@ -25,7 +25,7 @@ vim -c QuickstartInstall -c '!~/.vim/bundle/YouCompleteMe/install.py' -c qa
 echo "[vim-quickstart] Installing additional binaries..."
 brew install caskroom/cask/brew-cask editorconfig the_silver_searcher
 brew tap caskroom/fonts
-brew cask install font-dejavu-sans-mono-for-powerline
+brew cask install font-meslo-lg-for-powerline
 
 echo ""
 echo "[vim-quickstart] Installed successfully!"
