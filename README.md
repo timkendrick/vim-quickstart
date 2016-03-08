@@ -110,6 +110,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [vim-bufonly](https://github.com/schickling/vim-bufonly) | | ✔︎ | Allow closing all inactive buffers |
 | [vim-buffer-close](https://github.com/timkendrick/vim-buffer-close) | | ✔︎ | Close buffers gracefully |
 | [vim-reopen-file](https://github.com/timkendrick/vim-reopen-file) | | ✔︎ | Reopen files at the correct cursor position |
+| [vim-toggle-panel](https://github.com/timkendrick/vim-toggle-panel) | | ✔︎ | Toggle quickfix and location lists |
 | [Conque-GDB](https://github.com/vim-scripts/Conque-GDB) | | ✔︎ | Terminal shell and debugger |
 | [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized) | | ✔︎ | [Solarized](http://ethanschoonover.com/solarized) color scheme |
 
@@ -147,6 +148,8 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | <kbd>⌘</kbd>+<kbd>{</kbd> | Switch to previous buffer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>}</kbd> | Switch to next buffer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>1</kbd> | Toggle file explorer | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>2</kbd> | Toggle quickfix list | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>2</kbd> | Toggle location list | | ✔︎ |
 
 See plugin documentation for additional keyboard mappings.
 

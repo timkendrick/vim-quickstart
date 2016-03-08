@@ -12,5 +12,6 @@ editorconfig/editorconfig-vim
 schickling/vim-bufonly
 timkendrick/vim-buffer-close
 timkendrick/vim-reopen-file
+timkendrick/vim-toggle-panel
 vim-scripts/Conque-GDB
 altercation/vim-colors-solarized
