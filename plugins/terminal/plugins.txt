@@ -6,6 +6,7 @@ tpope/vim-abolish
 terryma/vim-multiple-cursors
 terryma/vim-expand-region
 haya14busa/incsearch.vim
+easymotion/vim-easymotion
 kana/vim-textobj-user
 kana/vim-textobj-lastpat
 bkad/CamelCaseMotion
