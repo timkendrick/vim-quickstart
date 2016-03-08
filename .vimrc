@@ -6,6 +6,8 @@ set relativenumber                     " show relative line numbers
 set showcmd                            " show most recent command in bottom bar
 set wildmenu                           " visual autocomplete for command menu
 set showmatch                          " highlight matching braces
+set cursorline                         " highlight current line
+set showcmd                            " show pending commands in status bar
 set incsearch                          " incremental search
 set hlsearch                           " highlight current search term
 set nrformats=                         " set number format to decimal

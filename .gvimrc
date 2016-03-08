@@ -6,12 +6,6 @@ colorscheme solarized
 " Hide left scrollbar
 set guioptions-=L
 
-" Highlight current line
-set cursorline
-
-" Show pending commands in status bar
-set showcmd
-
 " Always show tab bar
 set showtabline=2
 
