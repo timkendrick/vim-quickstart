@@ -151,6 +151,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | <kbd>⌘</kbd>+<kbd>⌥</kbd>+<kbd>W</kbd> | Close all buffers except current buffer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>{</kbd> | Switch to previous buffer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>}</kbd> | Switch to next buffer | | ✔︎ |
+| <kbd>⌘</kbd>+<kbd>P</kbd> | Select buffer from list | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>1</kbd> | Toggle file explorer | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>2</kbd> | Toggle quickfix list | | ✔︎ |
 | <kbd>⌘</kbd>+<kbd>3</kbd> | Toggle location list | | ✔︎ |

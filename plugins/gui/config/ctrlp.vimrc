@@ -6,3 +6,4 @@ let g:ctrlp_custom_ignore = {
 	\ }
 
 nmap <D-r> <F5>
+nmap <D-P> :CtrlPBuffer<CR>
