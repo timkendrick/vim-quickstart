@@ -103,6 +103,7 @@ With the vim-quickstart setup, Vim will run in one of two different modes depend
 | [nerdtree-git-plugin](https://github.com/Xuyuanp/nerdtree-git-plugin) | | ✔︎ | Git status in file explorer |
 | [vim-gitgutter](https://github.com/airblade/vim-gitgutter) | | ✔︎ | Git status in gutter |
 | [CtrlP](https://github.com/ctrlpvim/ctrlp.vim) | | ✔︎ | Fuzzy file searching |
+| [vim-ctrlp-autoignore](https://github.com/ludovicchabant/vim-ctrlp-autoignore) | | ✔︎ | `.ctrlpignore` support  |
 | [vim-airline](https://github.com/bling/vim-airline) | | ✔︎ | Improved status bar |
 | [YouCompleteMe](https://github.com/Valloric/YouCompleteMe) | | ✔︎ | Code completion |
 | [Syntastic](https://github.com/scrooloose/syntastic) | | ✔︎ | Syntax checking |

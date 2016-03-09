@@ -1,6 +1,7 @@
 timkendrick/vim-project
 scrooloose/syntastic
 ctrlpvim/ctrlp.vim
+ludovicchabant/vim-ctrlp-autoignore
 tpope/vim-fugitive
 rking/ag.vim
 Valloric/YouCompleteMe
